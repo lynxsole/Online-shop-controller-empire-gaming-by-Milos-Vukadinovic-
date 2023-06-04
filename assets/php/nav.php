@@ -60,7 +60,7 @@
     }
 
     .LogInBtn:hover{
-        z-index: 2;
+        z-index: 3;
         width: 90px;
         height: 50px;
         color: white;
