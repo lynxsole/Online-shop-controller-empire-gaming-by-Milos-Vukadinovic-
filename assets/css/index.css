@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 
 body{
+    background-image: url(../content/img/index/index-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(90%);
     background-color: #03033d;
     overflow: hidden;
     margin: 0 auto;
