@@ -1,7 +1,7 @@
 <nav>
     <div class="navContent">
-        <li class="">Home</li>
-        <li class="navBtn">Shop</li>
+        <li class=""><a href="index.php">Home</a></li>
+        <li class="navBtn"><a href="shop.php">Shop</a></li>
         <li class="navBtn">News</li>
         <li class="navBtn">About</li>
         <input class="LogInBtn" style="margin-left: 90rem; margin-top: -0.3rem; position: absolute;" type="button" value="Log In">
@@ -22,7 +22,10 @@
        justify-content: center;
     }
 
-
+    a{
+        text-decoration: none;
+        color: white;
+    }
     li{
         list-style: none;
         color: white;
