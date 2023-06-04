@@ -13,8 +13,7 @@
 
     nav{
         top: 2;
-        width: 100%;3
-        height: 30px;
+        width: 100%;
         margin-top: 1rem;
     }
 

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,7 +26,7 @@
                 </p>
             </div>
             <div class="EnterBtn">
-                <input id="ShopBtn" type="submit" value="Shop Now">
+                <input onclick="shopAccess()" id="ShopBtn" type="submit" value="Shop Now">
             </div>
 
             <div class="controller">
@@ -33,5 +34,7 @@
             </div>
         </div>
     </div>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
