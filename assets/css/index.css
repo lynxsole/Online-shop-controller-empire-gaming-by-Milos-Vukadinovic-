@@ -18,7 +18,7 @@ body{
 }
 
 .Intro{
-    padding-top: 1px;
+    padding-top: 2rem;
     position: relative;
     text-align: center;
     font-size: 2.7rem;
@@ -29,7 +29,7 @@ body{
 .desc{
     position: absolute;
     width: 20%;
-    margin-top: -3rem;
+    margin-top: -1rem;
     padding-left: 39%;
     text-align: center;
     font-size: 0.9rem;
@@ -52,9 +52,24 @@ body{
     cursor: pointer;
     border-radius: 2px;
     background-color:  #005AFF;
+    transition: 0.2s;
     font-family: 'Kanit', sans-serif;
 }
 
+
+#ShopBtn:hover{
+    z-index: 2;
+    width: 200px;
+    height: 50px;
+    margin-top: -7rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color:  #01318b;
+    transition: 0.2s;
+    font-family: 'Kanit', sans-serif;
+}
 
 .controller{
     padding-top: -10rem;

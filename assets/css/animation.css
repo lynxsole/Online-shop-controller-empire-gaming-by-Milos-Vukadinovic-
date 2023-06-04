@@ -1,16 +1,66 @@
 @keyframes slide-up {
     from {
-        opacity: 0;
         margin-top: 100%;
-    }
+        opacity: 0;
+      }
 
-    to {
+      65%{
+        opacity: 0.50;
+      }
+    
+      to {
+        margin-top: 0%;
         opacity: 1;
-        margin-top: 1%;
-    }
+      }
+}
+
+@keyframes slide-down {
+    from {
+        margin-top: -500px;
+        opacity: 0;
+      }
+
+      70%{
+        opacity: 0.50;
+      }
+    
+      to {
+        margin-top: 55px;
+        opacity: 1;
+      }
+}
+
+@keyframes desc {
+    from {
+        opacity: 0;
+      }
+
+      50%{
+        opacity: 0.50;
+      }
+    
+      to {
+        opacity: 1;
+      }
 }
 
 
-.controller{
+.ShowController{
+    animation-duration: 2s;
+    animation-name: slide-up;
+}
+
+.ShowText{
+    animation-duration: 1.2s;
+    animation-name: slide-down;
+}
+
+.ShowDesc{
+    animation-duration: 1.2s;
+    animation-name: desc;
+}
+
+.ShowBtn{
+    animation-duration: 1.8s;
     animation-name: slide-up;
 }

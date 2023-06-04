@@ -29,3 +29,15 @@ body{
     margin-left: 15px;
     background-color: red;
 }
+
+.itemTitle{
+    text-align: center;
+}
+
+.itemPrice{
+    text-align: center;
+}
+
+.itemBtn{
+    
+}

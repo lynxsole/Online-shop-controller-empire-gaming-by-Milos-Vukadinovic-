@@ -12,8 +12,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
 
     nav{
-        top: 2;
+        top: 1;
+        z-index: 3;
         width: 100%;
+        position: fixed;
         margin-top: 1rem;
     }
 
@@ -33,6 +35,13 @@
         font-family: 'Kanit', sans-serif;
     }
 
+    li:hover{
+        border-bottom: solid white;
+        position: relative;
+        transition: 0.2s;
+    }
+    
+
     .navBtn{
         margin-left: 200px;
     }
@@ -46,6 +55,7 @@
         cursor: pointer;
         border-radius: 2px;
         background-color:  #03033d;
+        transition: 0.3s;
         font-family: 'Kanit', sans-serif;
     }
 
