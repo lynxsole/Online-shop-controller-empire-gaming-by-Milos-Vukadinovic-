@@ -12,7 +12,6 @@
     <?php
         include('assets/php/nav.php');
     ?>
-
     <div class="Hero">
         <div class="Container">
             <div class="Intro">
