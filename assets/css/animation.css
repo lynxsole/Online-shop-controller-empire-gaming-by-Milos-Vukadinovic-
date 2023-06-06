@@ -45,11 +45,6 @@
 }
 
 
-.ShowController{
-    animation-duration: 2s;
-    animation-name: slide-up;
-}
-
 .ShowText{
     animation-duration: 1.2s;
     animation-name: slide-down;
@@ -63,4 +58,9 @@
 .ShowBtn{
     animation-duration: 1.8s;
     animation-name: slide-up;
+}
+
+.ShowController{
+  animation-duration: 2s;
+  animation-name: slide-up;
 }

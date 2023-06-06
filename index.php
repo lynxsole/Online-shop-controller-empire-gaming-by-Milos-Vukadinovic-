@@ -20,7 +20,7 @@
                 </h2>
             </div>
             <div class="desc ShowDesc">
-                <p >
+                <p>
                     nesciunt sint aut quo reiciendis saepe voluptates vel fugiat! Qui, fugiat libero ipsum quidem officia neque commodi.
                 </p>
             </div>
@@ -29,11 +29,10 @@
             </div>
 
             <div class="controller ShowController">
-                <img style="position: relative;" src="assets\content\img\index\Ps5-controller.webp" alt="ps5-conttroller">
+                <img class="pictureController" style="position: absolute; " src="assets\content\img\index\Ps5-controller.webp" alt="ps5-conttroller">
             </div>
         </div>
     </div>
-
     <script src="assets/js/main.js"></script>
 </body>
 </html>
