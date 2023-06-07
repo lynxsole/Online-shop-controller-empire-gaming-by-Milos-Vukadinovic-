@@ -16,7 +16,7 @@
         <div class="Container">
             <div class="Intro">
                 <h2 class="ShowText">
-                    Your Ultimate<br> Destination For The Game.
+                    Your Ultimate <br> Destination For The Game.
                 </h2>
             </div>
             <div class="desc ShowDesc">
