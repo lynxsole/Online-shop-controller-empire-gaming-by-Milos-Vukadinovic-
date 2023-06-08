@@ -4,7 +4,6 @@ body{
     background-image: url(../content/img/index/index-Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    backdrop-filter: blur(90%);
     background-color: #03033d;
     overflow: hidden;
     margin: 0 auto;
