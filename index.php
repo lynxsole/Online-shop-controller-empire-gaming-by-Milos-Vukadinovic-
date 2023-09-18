@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets\css\responsive.css">
     <link rel="stylesheet" href="assets/css/animation.css">
     <title>Document</title>
 </head>
@@ -28,8 +29,8 @@
                 <input onclick="shopAccess()" id="ShopBtn" type="submit" value="Shop Now">
             </div>
 
-            <div class="controller ShowController">
-                <img class="pictureController" style="position: absolute; " src="assets\content\img\index\Ps5-controller.webp" alt="ps5-conttroller">
+            <div class="controller">
+                <img class="pictureController" " src="assets\content\img\index\Ps5-controller.webp" alt="ps5-conttroller">
             </div>
         </div>
     </div>
