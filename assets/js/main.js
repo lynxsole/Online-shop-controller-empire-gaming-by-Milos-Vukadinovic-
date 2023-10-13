@@ -1,5 +1,3 @@
 function shopAccess() {
-    document.getElementById('ShopBtn')(
-        window.location.href="loginPage.php"
-    );
+  document.getElementById("ShopBtn")((window.location.href = "loginPage.php"));
 }
